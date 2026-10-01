@@ -1,0 +1,19 @@
+{
+  "name": "Architecture Layout & Project Data AI Agent",
+  "version": "1.0",
+  "rules": {
+    "never_invent_dimensions": true,
+    "unverified_value": "NOT FOUND",
+    "unclear_dimension": "NEEDS REVIEW",
+    "preserve_original_geometry": true,
+    "default_output_unit": "feet_and_inches"
+  },
+  "templates": [
+    {"id": "template_01", "name": "Layout Template"},
+    {"id": "template_02", "name": "Project Presentation Template"}
+  ],
+  "export": {
+    "resolutions": ["4K", "8K"],
+    "formats": ["PNG", "JPG", "PDF"]
+  }
+}
